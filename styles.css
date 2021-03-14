@@ -1,0 +1,156 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+}
+.top-width{
+	width: 100%;
+	float: left;
+	background-color: black;
+}
+
+.top-container{
+	width: 1200px;
+	margin: auto;
+	padding: 20px;
+	overflow: hidden
+}
+
+.top-logo{
+	width: 300px;
+	float: left;
+}
+.top-logo img{
+	height: 80px;
+}
+
+.top-ads{
+	width: 800px;
+	float: left;
+}
+.top-ads img{
+	height: 80px;
+	float: right;
+}
+
+.top-menu-width{
+	width: 100%;
+	float: left;
+	background-color: #7a1717;
+	margin: auto;
+}
+.top-menu{
+	width: 1200px;
+
+	margin: auto;
+	overflow: hidden;
+}
+.top-menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.top-menu ul li{
+	float: left;
+}
+.top-menu ul li a{
+	display: block;
+	text-decoration: none;
+	padding: 12px;	
+	font-size: large;
+	font-family:Koulen,Arial,Helvetica,sans-serif ;
+	color: rgb(187, 184, 184);
+}
+.top-menu ul li .home-btn img{
+	height: 20px;
+	margin-top: 6px;
+}
+.top-menu ul li a:hover{
+	color: rgb(255, 255, 255);
+}
+
+
+
+.container{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+
+}
+.slide-box{
+	width: 900px;
+	height: 500px;
+	float: left;
+	background-color: orange;
+}
+.slide-box-1{
+	width: 450px;
+	height: 250px;
+	float: left;
+	background-color: blue;
+	position: relative;
+}
+.slide-box-1 img{
+	width: 100%;
+	height: 250px;
+}
+.slide-box-2{
+	width: 450px;
+	height: 250px;
+	float: left;
+	background-color: pink;
+	position: relative;
+}
+.slide-box-2 img{
+	width: 100%;
+	height: 250px;
+}
+.slide-title {
+	position: absolute;
+	bottom: 0px;
+	width: 450px;
+	left: 0px;
+	transition: all  0.5s ease-in-out;
+	-moz-transition: height 0.5s ease;
+	-webkit-transition: height 0.5s ease;
+	-o-transition: height 0.5s ease;
+	transition: height 1s ease;
+	height: 50px;
+	font-family: Dangrek;
+	background-color: rgba(70, 70, 70, 0.404);
+	padding: 4px;
+}
+.slide-box-1:hover .slide-title ,.slide-box-2:hover .slide-title 
+{
+	transition: all 0.5s ease-in-out;
+	bottom: 0px;
+	height: 100px;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	color: white;
+	background-color: rgba(41, 41, 41, 0.952);
+}
+.ads-right{
+	width: 290px;
+	height: 500px;
+	float: left;
+	margin-left: 10px;
+	background-color: yellow;
+}
+.ads-right .ads-advertise-top{
+	width: 290px;
+	height: 250px;
+}
+.ads-right .ads-advertise-bottom{
+	width: 290px;
+	height: 250px;
+}
+.ads-right .ads-advertise-top iframe{
+	width: 290px;
+	height: 250px;
+}
+.ads-right .ads-advertise-bottom img{
+	width: 290px;
+	height: 250px;
+}
